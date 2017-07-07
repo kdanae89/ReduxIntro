@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import from { connect } 'react-redux';
+import { connect } from 'react-redux';
 
 class BookList extends Component {
   renderList() {
@@ -19,6 +19,7 @@ class BookList extends Component {
   }
 }
 
+//glue between react and redux
 function mapStateToProps(state) {
   //whatever is returned will show up as props inside of BookList
   return {

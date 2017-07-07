@@ -1,3 +1,4 @@
+//generates state ---> returns array of books
 export default function() {
   return [
     { title: 'Javascript: The Good Parts' },
